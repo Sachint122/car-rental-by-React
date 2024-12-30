@@ -1,0 +1,30 @@
+.social-icon {
+    display: inline-flex; /* Align icon and text */
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: #2debeb; /* Default text/icon color */
+    font-size: 1rem; /* Adjust font size */
+    padding: 8px 12px; /* Add padding for clickable area */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+    margin-right: 10px; /* Space between links */
+}
+
+.social-icon:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+    color: #0077b5; /* Default hover color (LinkedIn blue) */
+}
+
+.social-icon i {
+    font-size: 1.2rem; /* Slightly larger icon */
+    margin-right: 8px; /* Space between icon and text */
+    transition: transform 0.3s; /* Smooth icon animation */
+}
+
+.social-icon:hover i {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.social-icon[href*="github"]:hover {
+    color: #333; /* GitHub icon hover color */
+}
