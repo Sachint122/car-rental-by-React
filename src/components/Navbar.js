@@ -1,4 +1,5 @@
 import logo from './logo.jpg';
+import { Link } from 'react-router-dom'
 export default function Navbar() {
     const styles1 = {
         '--bs-scroll-height': '100px', // Use string keys for custom properties
@@ -26,23 +27,23 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarScroll">
                         <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={styles1}>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Service</a>
+                                <Link className="nav-link active" to="/Service">Service</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-disabled="true">Contact Us</a>
+                                <Link className="nav-link active" to='/Contact'>Contact Us</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle active" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Link
-                                </a>
+                                </Link>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Two Sheater</a></li>
-                                    <li><a className="dropdown-item" href="#">Four Sheater</a></li>
+                                    <li><Link className="dropdown-item" to="#">Two Sheater</Link></li>
+                                    <li><Link className="dropdown-item" to="#">Four Sheater</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Seven Sheater</a></li>
+                                    <li><Link className="dropdown-item" to="#">Seven Sheater</Link></li>
                                 </ul>
                             </li>
                         </ul>

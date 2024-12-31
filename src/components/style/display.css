@@ -1,0 +1,169 @@
+.unique-message {
+    color: rgb(20, 182, 236);
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.unique-heading{
+    margin-left: 30px;
+    text-decoration:solid;
+    text-align: left;
+    color: rgb(79, 0, 139);
+    font-size: 25px;
+}
+.contact-info {
+    height: auto;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 25px rgba(227, 8, 8, 0.485);
+
+}
+.contact-info .phone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    gap: 16px;
+}
+
+.phone-child {
+    margin-left: 30px;
+    text-align: left;
+}
+#addbook_inlibr .form {
+    height: 10px;
+    overflow: hidden;
+    background-color: rgba(237, 16, 16, 0);
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: ease-out 0.3s;
+    /* background-color: rgb(8, 247, 155); */
+    /* box-shadow: 0px 0px 25px rgba(193, 48, 48, 0.591); */
+    text-shadow: 0px 0px 1px red;
+    zoom: 120%;
+}
+h2,h4 {
+    color: #08d6ff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+
+}
+#addbook_inlibr {
+    background-color: #08ffe658;
+    /* background-color: rgb(25, 104, 194); */
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 20px rgba(227, 8, 8, 0.485);
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 380px;
+    height: 230px;
+}
+
+#Massage {
+    width: 100%;
+    max-width: 340px;
+    /* Limit the width for readability */
+    min-width: 300px;
+    /* Minimum width */
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    color: #add8e6;
+    /* Light blue text */
+    background-color: #f8faf6;
+    /* Dark background for contrast */
+    border: 1px solid #444;
+    /* Border matching dark theme */
+    border-radius: 5px;
+    resize: none;
+    /* Prevent manual resizing */
+    overflow-wrap: break-word;
+    /* Ensure long words wrap */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#addbook_inlibr label {
+    top: 20px;
+    margin-left: 16px;
+    width: 150px;
+    position: relative;
+    display: block;
+    /* background- */
+    
+    color:  #08d6ff;
+    color: hsla(0, 100.00%, 49.27%, 1.00);
+    text-align: center;
+}
+
+#addbook_inlibr input {
+    margin-left: 175px;
+    height: 20px;
+    width: 190px;
+    position: relative;
+    display: block;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-radius: 5px;
+    background-color: hsla(0, 0.00%, 96.67%, 1.00);
+    mix-blend-mode: normal;
+}
+
+button {
+    display: block;
+    border-top-width: 1px;
+    border-top-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: hsla(166, 100.00%, 49.80%, 1.00);
+    border-radius: 10px;
+    box-shadow: 6px 6px 12px -1px hsla(156, 100.00%, 48.26%, 0.36);
+    outline-style: solid;
+    outline-width: 1px;
+    color: hsla(156, 100.00%, 48.93%, 1.00);
+}
+.submit-button {
+    width: 100px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+button:hover{
+    background-color: rgba(0, 128, 60, 0.751);
+    color: white;
+}
+.reset {
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 36px;
+}
