@@ -40,10 +40,9 @@ export default function Navbar() {
                                     Link
                                 </Link>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="#">Two Sheater</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Four Sheater</Link></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="#">Seven Sheater</Link></li>
+                                    <li><Link className="dropdown-item" to='/Two_seater'>Two Seater</Link></li>
+                                    <li><Link className="dropdown-item" to="/Four_Seater">Four Seater</Link></li>
+                                    <li><Link className="dropdown-item" to="/Seven_Seater">Seven Seater</Link></li>
                                 </ul>
                             </li>
                         </ul>
