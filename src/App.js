@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/Service" element={<Service />} />

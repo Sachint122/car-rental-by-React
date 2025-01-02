@@ -4,13 +4,15 @@
     font-size: 20px;
     text-align: left;
 }
-.unique-heading{
+
+.unique-heading {
     margin-left: 30px;
-    text-decoration:solid;
+    text-decoration: solid;
     text-align: left;
     color: rgb(79, 0, 139);
     font-size: 25px;
 }
+
 .contact-info {
     height: auto;
     text-align: center;
@@ -20,9 +22,11 @@
     box-shadow: 0px 0px 25px rgba(227, 8, 8, 0.485);
 
 }
+
 .contact-info .phone {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates 2 equal columns */
     gap: 16px;
 }
 
@@ -30,6 +34,7 @@
     margin-left: 30px;
     text-align: left;
 }
+
 #addbook_inlibr .form {
     height: 10px;
     overflow: hidden;
@@ -52,7 +57,9 @@ a:hover {
     text-shadow: 0px 0px 1px red;
     zoom: 120%;
 }
-h2,h4 {
+
+h2,
+h4 {
     color: #08d6ff;
     padding: 10px;
     margin: 5px;
@@ -60,6 +67,7 @@ h2,h4 {
     font-size: 30px;
 
 }
+
 #addbook_inlibr {
     background-color: #08ffe658;
     /* background-color: rgb(25, 104, 194); */
@@ -104,8 +112,8 @@ h2,h4 {
     position: relative;
     display: block;
     /* background- */
-    
-    color:  #08d6ff;
+
+    color: #08d6ff;
     color: hsla(0, 100.00%, 49.27%, 1.00);
     text-align: center;
 }
@@ -133,6 +141,21 @@ h2,h4 {
     mix-blend-mode: normal;
 }
 
+.addme {
+    border: 1px solid rgba(7, 214, 250, 1);
+    border-radius: 24px;
+    color: #08d6ff;
+}
+
+.addme:hover {
+    background: linear-gradient(45deg,
+            rgba(44, 143, 230, 1) 30%,
+            rgba(32, 178, 7, 1) 70%);
+    background-blend-mode: normal;
+    color: black;
+}
+
+
 button {
     display: block;
     border-top-width: 1px;
@@ -150,20 +173,38 @@ button {
     box-shadow: 6px 6px 12px -1px hsla(156, 100.00%, 48.26%, 0.36);
     outline-style: solid;
     outline-width: 1px;
-    color: hsla(156, 100.00%, 48.93%, 1.00);
+    /* color: hsla(156, 100.00%, 48.93%, 1.00); */
 }
+
 .submit-button {
     width: 100px;
     margin-top: 8px;
     margin-left: auto;
     margin-right: 40px;
 }
-button:hover{
+
+button:hover {
     background-color: rgba(0, 128, 60, 0.751);
     color: white;
 }
+
 .reset {
     width: 100px;
     margin-top: -27px;
     margin-left: 36px;
+}
+
+.animated-div {
+    height: 24px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(240, 238, 238);
+    transition: background-color 0.5s;
+}
+
+.animated-div:hover {
+    background-color: rgb(255, 254, 254);
 }
