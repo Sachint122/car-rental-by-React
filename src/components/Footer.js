@@ -49,6 +49,21 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr className="text-light" />
+                <div>
+                    <h4 style={{ color: '#08ffe6' }}>Subscribe to our newsletter</h4>
+                    <p style={{ textAlign: 'center', fontSize: '24px', color: '#08ffe6'}}> Monthly digest of what's new and exciting from us.</p>
+                </div>
+                <div className="newsletter-form mt-3">
+                    <form className="d-flex justify-content-center">
+                        <input
+                            type="email"
+                            className="form-control me-2"
+                            placeholder="Enter your email"
+                            style={{ maxWidth: '300px' }}
+                        />
+                        <button type="submit" className="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
                 <div className="text-center">
                     <p className="mb-0">&copy; 2024 Car Rental. All rights reserved.</p>
                 </div>

@@ -38,7 +38,7 @@ export default function Contact() {
 
                 </div>
                 <div className='unique-heading'>
-                    Freedom on Four Wheels=>
+                    Freedom on Four Wheels--
                 </div>
                 <p className="unique-message">
                     Rent the perfect car for any occasion with flexible plans. Enjoy seamless booking and unmatched convenience.
