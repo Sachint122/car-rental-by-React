@@ -9,26 +9,25 @@ const ButtonAnimation = () => {
         "#FF333A", "#33FF9A", "#337AFF", "#A1FF33", "#FF7AFF",
         "#33FFA1", "#FF33F0", "#33F0FF", "#FF5733", "#7A33FF",
     ];
-
-    const [bgColor, setBgColor] = useState("rgb(240, 238, 238)");
     const [boxShadow, setBoxShadow] = useState("none");
-    const [imgHeight, setImgHeight] = useState("50px");
+    const [imgHeight, setImgHeight] = useState("40px");
     const [tempColor, setTempColor] = useState(null);
+    var temp;
 
     const handleAnimation = () => {
-        setImgHeight("50px");
+        setImgHeight("40px");
         setTimeout(() => {
-            setImgHeight("40px");
+            setImgHeight("50px");
             const getRandomColor = () => {
                 let randomColor;
                 do {
-                    randomColor = colors[Math.floor(Math.random() * colors.length)];
+                    temp = Math.floor(Math.random() * colors.length);
+                    randomColor = colors[temp];
                 } while (randomColor === tempColor);
                 return randomColor;
             };
             const newColor = getRandomColor();
-            setBgColor(newColor);
-            setBoxShadow(`0px 0px 30px ${newColor}`);
+            setBoxShadow(`0px 0px 20px ${newColor}`);
             setTempColor(newColor);
         }, 200);
     };
@@ -44,7 +43,10 @@ const ButtonAnimation = () => {
         <div
             className="animated-div"
             onClick={handleAnimation}
-            style={{ backgroundColor: bgColor, boxShadow: boxShadow }}
+            style={{
+                background: "linear-gradient(45deg, #36D1DC, #5B86E5)",
+                boxShadow: boxShadow
+            }}
         >
             <img
                 src={bookeme}
